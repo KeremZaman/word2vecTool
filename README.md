@@ -7,7 +7,7 @@ This tool uses gensim to create word2vec. It can be installed using pip:
 ```pip install gensim```
 
 ## Usage
-```usage: x.py [-h] --input INPUT [--model MODEL] [--workers WORKERS]
+```usage: w2vtool.py [-h] --input INPUT [--model MODEL] [--workers WORKERS]
             [--size SIZE] [--only-preprocess ONLY_PREPROCESS]
             [--only-train ONLY_TRAIN]
 
@@ -24,4 +24,5 @@ optional arguments:
                         (default: None)
   --only-train ONLY_TRAIN
                         Only train preprocessed input file, enter name for
-                        output (default: None) ```
+                        output (default: None)
+ ```
