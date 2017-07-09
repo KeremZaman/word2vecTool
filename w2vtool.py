@@ -20,7 +20,7 @@ class VectorCreator():
 		self.sentences = Feeder(input)
 		if output is None:
 			output = 'model'
-			self.output = output
+		self.output = output
 
 	def create(self):
 		model = gensim.models.Word2Vec(self.sentences,size = self.size, workers = self.workers)
