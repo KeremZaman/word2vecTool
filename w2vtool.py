@@ -63,7 +63,7 @@ class Runner():
 		else:
 			p = Preprocessor(self.input)
 			p.preprocess()
-			VectorCreator(args.input,args.model,args.workers,args.size)
+			vc = VectorCreator(args.input,args.model,args.workers,args.size)
 			vc.create()
 			
 
