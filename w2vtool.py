@@ -28,7 +28,7 @@ class VectorCreator():
 	
 
 class Preprocessor():
-	def __init__(self,input,output):
+	def __init__(self,input,output=None):
 		rmv = string.punctuation + '‘’“”' # can be extended. need update for opennmt seperators
 		self.translator = str.maketrans('','',rmv)
 		self.input = input
